@@ -1,0 +1,18 @@
+:root{
+    --body_bg:white;
+    --body_color:black;
+    --switch:#282c34;
+    --btn:purple;
+}
+
+[data-theme="dark"] {
+    --body_bg:#282c34;
+    --body_color:white;
+    --switch:white;
+    --btn:orange;
+}
+.App{
+    background-color: var(--body_bg);
+    color: var(--body_color);
+    transition: all 0.3s ease-in-out;
+}
